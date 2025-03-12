@@ -1,10 +1,6 @@
-<!DOCTYPE HTML>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title>Home</title>
-    </head>
-    <body>
-       <h1>Hello World!</h1>
-    </body>
-</html>         
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# gem "rails"
+gem "jekyll"
