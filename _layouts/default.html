@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>{{ page.title}}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/_assets/style.css">
+
+    <!-- JavaScript  -->
+    <script src="{{ site.baseurl }}/_assets/style.css"> </script>
+
+    <!-- plugins -->
+    {% feed_meta %}
+    {% seo %}
+</head>
+<body>
+    {% include navigation.html %}
+    {{ content }}
+</body>
+</html>            
