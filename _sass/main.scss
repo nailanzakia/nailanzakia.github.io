@@ -1,3 +1,27 @@
-.current{
-    color: green;
-}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #2525d8;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-size: 2em;
+    border-bottom: 3px solid #27ae60;
+    padding-bottom: 5px;
+  }
+  
+  h2 {
+    color: #27ae60;
+    margin-top: 30px;
+  }
+  
+  p {
+    background: #39a743;
+    padding: 15px;
+    border-left: 5px solid #4caf50;
+    border-radius: 4px;
+    max-width: 600px;
+  }
