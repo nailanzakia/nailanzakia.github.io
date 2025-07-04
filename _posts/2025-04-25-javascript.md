@@ -1,16 +1,23 @@
-5. JavaScript
+<h1>1. JavaScript</h1>
 
-5.1 Pengertian JavaScript
-JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web interaktif. JavaScript digunakan untuk memanipulasi elemen HTML dan CSS di dalam halaman web secara dinamis.
+<h2>5.1 Pengertian JavaScript</h2>
+<p>
+  JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web interaktif.
+  JavaScript digunakan untuk memanipulasi elemen HTML dan CSS di dalam halaman web secara dinamis.
+</p>
 
-5.2 Fungsi JavaScript
-JavaScript memungkinkan pengembang untuk:
+<h2>5.2 Fungsi JavaScript</h2>
+<p>
+  JavaScript memungkinkan pengembang untuk:
+</p>
+<ul>
+  <li>Menangani peristiwa seperti klik atau hover</li>
+  <li>Memanipulasi elemen DOM (Document Object Model)</li>
+  <li>Berinteraksi dengan server menggunakan AJAX</li>
+</ul>
 
-Menangani peristiwa seperti klik atau hover.
-Memanipulasi elemen DOM (Document Object Model).
-Berinteraksi dengan server menggunakan AJAX.
-5.3 Contoh Penggunaan JavaScript
-Contoh sederhana untuk menampilkan alert:
+<h2>5.3 Contoh Penggunaan JavaScript</h2>
+<p>Contoh sederhana untuk menampilkan alert:</p>
 
 html
 Salin kode

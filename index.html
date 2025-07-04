@@ -2,12 +2,76 @@
 layout: default
 title: home 
 ---
-    <h1>Nama: Nailan Zakia</h1>
-    <p>Desripsi Diri: Saya berasal dari Simpang Mulieng, sekarang berkuliah di Polteknik Negeri Lhokseumawe sebagai mahasiswi jurusan TIK</p>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: #f5f0fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #6a5acd;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #6a5acd;
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        button {
+            background-color: #b497d6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #9370db;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Nama: <span style="color:#6a5acd;">Nailan Zakia</span></h1>
+    <p><strong>Deskripsi Diri:</strong> Saya berasal dari Simpang Mulieng, sekarang berkuliah di Politeknik Negeri Lhokseumawe sebagai mahasiswi jurusan TIK</p>
     
     <button onclick="myFunction()">jangan diklik ya!</button>
-    
-    
+
+    <script>
+        function myFunction() {
+            alert("HAHA Malah diklik :)");
+        }
+    </script>
+
 </body>
 </html>
-
